@@ -90,4 +90,10 @@ t_list				*ft_lstnew(void const *content, size_t content_size);
 char				**ft_split_whitespace(char *str);
 char				*ft_strrev(char *str);
 
+int					ft_isspace(char c);
+void				ft_swap(int *a, int *b);
+int					ft_sqrt(int n);
+int					ft_islower(int c);
+int					ft_isupper(int c);
+
 #endif
